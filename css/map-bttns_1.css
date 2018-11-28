@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-Nov-2018, 10:18:29
+    Author     : stuartfletcher
+*/
+
+.row-img {
+    width: 100%;
+}
+.col-100{}
+.col-25 {}
+.card1 {}
+
+/* Style the buttons that are used to open and close the side block via the maps */
+.image2 {
+    width:12.5%;
+    height: auto;
+    float:left;
+    position: relative;
+    z-index: -1;
+    opacity: .90;
+}
+
+.image {
+    width:12.5%;
+    height: auto;
+    float:left;
+    position: relative;
+    z-index: -1;
+    opacity: .90;
+    transition: all .2s ease-in-out;
+}
+
+.image:hover {
+    width: 12.5%;
+    height: auto;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.7);
+    position: relative;
+    z-index: 0;
+    opacity: 1;
+    border:solid;
+    border-color: rgb(225, 225, 225);
+    border-width: 1px;
+    transform: scale(1.1);
+}
+
+.image:active {
+    width: 12.5%;
+    height: auto;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.7);
+    position: relative;
+    z-index: 0;
+    opacity: 1;
+    border:solid;
+    border-color: rgb(225, 0, 0);
+    border-width: 2px;
+    transform: scale(1.0);
+}
+
+/* Sidebar styling */
+.a-block{
+    top:0px;
+    left:0px;
+    z-index: 1;
+    width:0px;
+    height:100%;
+    position: fixed;
+    background-color:rgba(45, 45, 45, 0.95);
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 0px 10px 10px black;
+    transition: width 0.5s;
+    overflow-x: hidden;
+
+}
+
+.a-button{
+    cursor: pointer;
+}
+

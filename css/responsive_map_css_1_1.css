@@ -1,0 +1,47 @@
+
+/* 
+    Created on : 16-Oct-2018, 11:10:06
+    Author     : stuartfletcher
+*/
+
+*{
+    box-sizing: border-box;
+}
+/* Body details, screen width (wide screen, standard definition). */ 
+body {
+    max-width: 1920px;
+    background-color: whitesmoke;   
+    font-family: arial, sans-serif;
+    margin: auto;
+}
+
+/* Top banner image. */ 
+.header-card {}
+
+.header-img {
+    width:100%;
+    height: auto;
+    float:left;
+    position: relative;
+    z-index: -1;
+    opacity: 1.0;
+}
+
+/* content */
+.content-start {
+    position: relative;
+    top: 40px;
+    z-index: -1;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(0,0,175);
+}
+/* 'row after' is not affecting 'row-img' */
+.row::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+.row {}
+
+
